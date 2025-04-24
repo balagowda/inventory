@@ -1,7 +1,6 @@
 package com;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -16,13 +15,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class Register
  */
 @WebServlet("/user")
-public class Register extends HttpServlet {
+public class Auth extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Register() {
+    public Auth() {
         super();
         // TODO Auto-generated constructor stub
     }
